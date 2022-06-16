@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "eventOutput",
+						"type": "string"
+					}
+				],
+				"name": "myEventTest",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "myText",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storedData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/contracts/1_MyContract.sol": "MyContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/contracts/1_MyContract.sol": {
+			"keccak256": "0x8c2bc77a114e614bc76fc4ed99a6b7c1a72ab6f0a9b456e433e250ff40732f75",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://adcdabfc7d536b452cf08f9d61bf24f34b1e6e575f2caa9a6cd87244d411f244",
+				"dweb:/ipfs/QmPVofrgTLBU8mZbQ4mLpTBTZVeXePXsbsAaicJd9VK5YX"
+			]
+		}
+	},
+	"version": 1
+}
